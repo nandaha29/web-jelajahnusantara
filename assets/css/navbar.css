@@ -1,0 +1,37 @@
+/* ==================================== INITIAL SETUP ==================================== */
+/* @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"); */
+/* 
+font-family: 'Open Sans', sans-serif; 
+font-family: 'Playfair Display', serif;
+*/
+
+:root {
+  --black: #000;
+  --green-dark-100: #006d5b;
+  --orange-60: #ffd48c;
+  --orange-80: #ffb703;
+  --orange-100: #fb8500;
+  --blue-60: #8ecae6;
+  --blue-80: #219ebc;
+  --blue-100: #023047;
+
+  --card-bg: #ffff;
+  --white: #fcfff9;
+}
+
+* {
+  color: var(--blue-dark-100);
+  /* font-family: "Open Sans", sans-serif; */
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+/* ===================================== NAVIGATION ===================================== */
+/* ================================ UNIVERSAL ================================ */
+.navbar-brand {
+  line-height: 50px;
+  /* vertical-align: text-top; */
+  vertical-align: baseline;
+}

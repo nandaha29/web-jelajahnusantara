@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JelajahNusantara</title>
+  <link rel="icon" type="image/png" href="assets/img/Logo.svg" sizes="96x96" />
+
+  <!-- ================================= CSS ================================= -->
+
+  <!-- Index CSS -->
+  <link rel="stylesheet" href="../assets/css/Pembayaran.css" />
+
+  <!-- Navbar CSS -->
+  <link rel="stylesheet" href="../assets/css/navbar.css" />
+
+  <!-- Background CSS -->
+  <link rel="stylesheet" href="../assets/css/background.css">
+
+  <!-- Footer CSS -->
+  <link rel="stylesheet" href="../assets/css/footer.css" />
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+
+  <!-- ============================= INITIAL  JS ============================= -->
+  <script src="../assets/JS/Pembayaran.js" defer></script>
+
+</head>
+
+<body>
+
+  <!-- =============================== NAVBAR =============================== -->
+
+  <nav>
+    <div href="index.html" class="logo">
+      <div class="logo-container">
+        <img src="../assets/img/logo-jenus.png" alt="jENUS" />
+        <span class="logo-text">JelajahNusantara</span>
+      </div>
+    </div>
+
+    <div class="show white"></div>
+    <ul class="primary">
+      <div>
+        <li><a class="active">Home</a></li>
+        <li>
+          <a href="#sec3">Guidebook</a>
+        </li>
+        <li>
+          <a href="belanja.html">Booking</a>
+        </li>
+        <li>
+          <a href="tentang.html">Help</a>
+        </li>
+        <li>
+          <button class="Login-button">
+            <a href="Login.html">Login</a>
+          </button>
+        </li>
+        <li>
+          <button class="SignUp-button">
+            <a href="Opsi.html">Sign Up</a>
+          </button>
+        </li>
+      </div>
+      <span class="hide black">x</span>
+    </ul>
+  </nav>
+
+  <!-- ============================== SECTION 1 ============================== -->
+  <section id="sec1" class="container">
+    <p class="time">Selesaikan pembayaran dalam waktu: <span id="countdown"></span></p>
+    <div class="row">
+
+      <div class="col-6">
+        <h3 class="title">METODE PEMBAYARAN</h3>
+        <h5 class="sub-title">Pilih Metode Pembayaran</h5>
+        <label class="radio-button">
+          <input type="radio" checked="checked" name="radio">
+          BCA Virtual Account
+          <span class="checkmark"></span>
+        </label>
+        <br> <!-- Break to move to the next line -->
+        <label class="radio-button">
+          <input type="radio" name="radio">
+          Kartu Kredit/Debit
+          <span class="checkmark"></span>
+        </label>
+        <br> <!-- Break to move to the next line -->
+        <label class="radio-button">
+          <input type="radio" name="radio">
+          Mandiri Virtual Account
+          <span class="checkmark"></span>
+        </label>
+
+        <h5 class="title">DETAIL PEMESANAN</h5>
+        <label for="nama">Nama</label>
+        <input type="text1" id="Nama" name="nama" placeholder="Masukkan nama..">
+        <label for="Telp">No. Telepon</label>
+        <input type="text1" id="Telp" name="nomor" placeholder="Masukkan Nomor..">
+        <label for="Email">Email</label>
+        <input type="text1" id="Email" name="email" placeholder="Masukkan Email..">
+        <input type="submit" value="Submit">
+      </div>
+
+      <div class="col-6">
+        <h5 class="title">INSTRUKSI PEMBAYARAN</h5>
+        <h5 class="sub-title">Lakukan Transfer ke</h5>
+        <label for="metode">VA BCA</label>
+        <div class="input-container">
+          <img src="copy.png" alt="Copy">
+          <input type="nominal" id="Metode" name="metode" placeholder="70001 3161523002" readonly>
+        </div>
+        <label for="total">Total Pembayaran</label>
+        <input type="nominal" id="Total" name="total" placeholder="Rp. 240.000" readonly>
+        <div class="Details">
+          <p class="text1-bold">Detail Harga</p>
+          <p class="text2">Jatim Park 2</p>
+          <p class="text1">Harga</p>
+          <p class="text2">Tiket Batu Secret Zoo + Museum Satwa</p>
+          <p class="text1">Biaya Lainnya</p>
+          <p class="text2">Pajak</p>
+          <p class="text2">Biaya Transaksi</p>
+        </div>
+      </div>
+
+    </div>
+</body>
