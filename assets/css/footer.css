@@ -1,0 +1,29 @@
+/* ===================================== FOOTER ===================================== */
+/* ================================ UNIVERSAL ================================ */
+footer {
+  background-color: #006d5b;
+  color: --white;
+  /* margin-top: 20rem; */
+}
+
+/* footer .top {
+  background-color: yellow;
+}
+
+footer .top .left img {
+  background-color: blue;
+}
+footer .top .right {
+  background-color: lightskyblue;
+}
+
+footer .down {
+  background-color: pink;
+}
+
+footer .down .left {
+  background-color: lightgreen;
+}
+footer .down .right {
+  background-color: lightsalmon;
+} */
