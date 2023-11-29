@@ -11,16 +11,16 @@
   <!-- ================================= CSS ================================= -->
 
   <!-- Index CSS -->
-  <link rel="stylesheet" href="assets/css/destinasi.css" />
+  <link rel="stylesheet" href="./assets/css/tampilanDestinasi.css" />
 
   <!-- Navbar CSS -->
-  <link rel="stylesheet" href="assets/css/navbar.css" />
+  <link rel="stylesheet" href="./assets/css/navbar.css" />
 
   <!-- Footer CSS -->
-  <link rel="stylesheet" href="assets/css/footer.css" />
+  <link rel="stylesheet" href="./assets/css/footer.css" />
 
   <!-- Bootsrap CSS -->
-  <link rel="stylesheet" href="assets/bootstrap-5.0.2-dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./assets/bootstrap-5.0.2-dist/css/bootstrap.min.css" />
 
 
   <!-- ============================= INITIAL  JS ============================= -->
@@ -41,9 +41,9 @@
         </a>
       </div>
       <!-- <a class="navbar-brand fw-bolder " href="#">
-          <img src="./assets/img/logo-jenus.png" width="15%" height="15%" class="d-inline-block align-top" alt="">
-          JelajahNusantara
-        </a> -->
+        <img src="./assets/img/logo-jenus.png" width="15%" height="15%" class="d-inline-block align-top" alt="">
+        JelajahNusantara
+      </a> -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -51,10 +51,10 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
           <li class="nav-item">
-            <a class="nav-link " aria-current="page" href="index.html">Home</a>
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <!-- <li class="nav-item">
-            <a class="nav-link active" href="guidebook.html">Guidebook</a>
+            <a class="nav-link" href="guidebook.html">Guidebook</a>
           </li> -->
           <li class="nav-item">
             <a class="nav-link" href="booking.html">Booking</a>
@@ -70,81 +70,99 @@
   </nav>
 
   <!-- ============================== SECTION 1 ============================== -->
-  <section id="sec1" class="container me-4">
+  <section id="sec1" class="container">
     <div class="top">
-      <h1>Frequently Asked Questions</h1>
-      <p>Bellow you’ll find answer to the questions we get asked the most about applying</p>
+      <div class="content">
+        <h1>Rekomendasi Wisata</h1>
+        <p>Bingung mau liburan kemana? Tenang, kami punya solusinya!
+          Berikut beberapa wisata yang mungkin kamu sukai.</p>
+      </div>
+      <!-- <div class="justify-content-between align-items-center"> -->
+      <div class="row ">
+        <div class="col">
+          <h1>Jatim Park 2</h1>
+          <h6>Rating: 5/5 ⭐⭐⭐⭐⭐</h6>
+        </div>
+        <div class="col">
+          <!-- <div class="content-2 justify-content-end"> -->
+          <h1>Start </h1>
+          <h6>Rp. 120.000</h6>
+          <button type="button" class="btn btn-info">Rewiew</button>
+          <!-- </div> -->
+        </div>
+      </div>
     </div>
-    <div class="down container ">
 
-      <div class="d-grid gap-2 mb-3">
-        <!-- <p> -->
-        <a class="btn btn-outline-info btn-lg fw-bold fs-4" data-bs-toggle="collapse" href="#collapseExample"
-          role="button" aria-expanded="false" aria-controls="collapseExample">
-          Bagaimana cara booking tempat wisata?
-        </a>
-        <!-- </p> -->
-        <div class="collapse" id="collapseExample">
-          <div class="card card-body mb-2">
-            Some placeholder content for the collapse component. This panel is hidden by default but revealed when the
-            user
-            activates the relevant trigger.
+    <div class="down">
+      <div class="row">
+        <div class="col ">
+          <img src="./assets/img/bromo.jpg" class="img-thumbnail" alt="...">
+        </div>
+        <div class="col">
+          <div class="row">
+            <div class="col ">
+              <img src="./assets/img/bromo.jpg" class="img-thumbnail" alt="...">
+            </div>
+            <div class="col ">
+              <img src="./assets/img/bromo.jpg" class="img-thumbnail" alt="...">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col pt-3">
+              <img src="./assets/img/bromo.jpg" class="img-thumbnail" alt="...">
+            </div>
+            <div class="col pt-3">
+              <img src="./assets/img/bromo.jpg" class="img-thumbnail" alt="...">
+            </div>
           </div>
         </div>
       </div>
+    </div>
+    <!-- </div> -->
 
-      <div class="d-grid gap-2 mb-3">
-        <!-- <p> -->
-        <a class="btn btn-outline-info btn-lg fw-bold fs-4" data-bs-toggle="collapse" href="#collapseExamplee"
-          role="button" aria-expanded="false" aria-controls="collapseExamplee">
-          Kenapa tidak bisa Login?
-        </a>
-        <!-- </p> -->
-        <div class="collapse" id="collapseExamplee">
-          <div class="card card-body mb-2">
-            Some placeholder content for the collapse component. This panel is hidden by default but revealed when the
-            user
-            activates the relevant trigger.
-          </div>
-        </div>
+  </section>
+
+  <!-- ============================== SECTION 2 ============================== -->
+  <section id="sec2" class="container">
+    <div class="row">
+      <div class="col p-3 bg-warning text-white">
+        <div class="col p-3 bg-info text-white">.col</div>
+
       </div>
 
-      <div class="d-grid gap-2 mb-3">
-        <!-- <p> -->
-        <a class="btn btn-outline-info btn-lg fw-bold fs-4" data-bs-toggle="collapse" href="#collapseExampleee"
-          role="button" aria-expanded="false" aria-controls="collapseExampleee">
-          Bagaimana cara membatalkan dan refund bookingan?
-        </a>
-        <!-- </p> -->
-        <div class="collapse" id="collapseExampleee">
-          <div class="card card-body mb-2">
-            Some placeholder content for the collapse component. This panel is hidden by default but revealed when the
-            user
-            activates the relevant trigger.
-          </div>
-        </div>
+      <!-- <div class="col p-3 bg-dark text-white"> -->
+      <div class="row">
+        <div class="col p-3 bg-primary text-white">.col</div>
+        <div class="col p-3 bg-success text-white">.col</div>
       </div>
 
-      <div class="d-grid gap-2 mb-3">
-        <!-- <p> -->
-        <a class="btn btn-outline-info btn-lg fw-bold fs-4" data-bs-toggle="collapse" href="#collapseExampleeee"
-          role="button" aria-expanded="false" aria-controls="collapseExampleeee">
-          Konfirmasi dan verifikasi pembayaran?
-        </a>
-        <!-- </p> -->
-        <div class="collapse" id="collapseExampleeee">
-          <div class="card card-body mb-2">
-            Some placeholder content for the collapse component. This panel is hidden by default but revealed when the
-            user
-            activates the relevant trigger.
-          </div>
-        </div>
-      </div>
-
+    </div>
+    <!-- </div> -->
 
     </div>
 
   </section>
+
+  <!-- ============================== SECTION 3 ============================== -->
+  <!-- <section id="sec3" class="container">
+    <div class="row">
+      <div class="col p-3 bg-warning text-white">
+        <div class="col p-3 bg-info text-white">.col</div>
+
+      </div>
+
+
+      <div class="col p-3 bg-dark text-white">
+        <div class="row">
+          <div class="col p-3 bg-primary text-white">.col</div>
+          <div class="col p-3 bg-success text-white">.col</div>
+        </div>
+
+      </div>
+    </div>
+
+    </div>
+  </section> -->
 
   <!-- ============================== SECTION 4 ============================== -->
   <!-- <section id="sec4" class="container">
@@ -171,7 +189,7 @@
 
   <!-- =============================== FOOTER =============================== -->
 
-  <footer class="p-5 justify-content-between align-items-center mt-5">
+  <footer class="p-5 justify-content-between align-items-center mt-4">
     <div class="row border-bottom">
       <div class="col">
         <a class="logo">
@@ -183,9 +201,9 @@
           <li class="nav-item">
             <a href="index.html" class="nav-link px-2 text-light">Home</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a href="guidebook.html" class="nav-link px-2 text-light ">Guidebook</a>
-          </li>
+          </li> -->
           <li class="nav-item">
             <a href="booking.html" class="nav-link px-2 text-light">Booking</a>
           </li>

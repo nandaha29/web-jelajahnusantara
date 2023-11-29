@@ -1,0 +1,42 @@
+/* ====================================== UNIVERSAL ====================================== */
+
+/* ====================================== SECTION 1 ====================================== */
+
+#sec1.container {
+  padding: 0;
+  width: 100%;
+  /* background-color: yellow; */
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+#sec1.container .top {
+  /* width: 45%; */
+  margin: auto;
+  background-color: green;
+  /* text-align: center; */
+  /* justify-content: center; */
+  margin-bottom: 3rem;
+}
+#sec1.container .top .row {
+  /* width: 45%; */
+  /* margin: auto; */
+  background-color: orange;
+  /* text-align: center; */
+  /* justify-content: center; */
+  /* margin-bottom: 3rem; */
+  /* display: flex; */
+  /* justify-content: space-between; */
+}
+
+#sec1.container .content {
+  /* background-color: orange; */
+  text-align: center;
+  justify-content: center;
+}
+#sec1.container .down {
+  /* background-color: green; */
+  width: 100%;
+}
+/* #sec1.container .down .card {
+  background-color: green;
+} */
