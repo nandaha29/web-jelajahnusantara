@@ -29,3 +29,11 @@
   text-align: center;
   justify-content: center;
 }
+
+.card-img {
+  width: 350px;
+  height: 190px;
+  border-radius: 20px;
+  background: var(--neutral-colors-color-400, #F2F1FA);
+  flex-shrink: 0;
+}
