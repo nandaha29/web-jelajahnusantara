@@ -22,6 +22,9 @@
   <!-- Bootsrap CSS -->
   <link rel="stylesheet" href="./assets/bootstrap-5.0.2-dist/css/bootstrap.min.css" />
 
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 
   <!-- ============================= INITIAL  JS ============================= -->
   <script src="assets/js/jquery-3.6.0.min.js"></script>
@@ -31,31 +34,21 @@
 <body>
 
   <!-- =============================== NAVBAR =============================== -->
-  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light rounded-bottom shadow-sm">
-    <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded-bottom"> -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light rounded-bottom shadow-sm">
     <div class="container-fluid ms-5 me-5">
-      <div class="container">
-        <img src="./assets/img/logo-jenus.png" width="5%" height="5%" class="d-inline-block " alt="">
-        <a class="navbar-brand fw-bolder " href="#">
+        <img src="./assets/img/logo-jenus.png" height="5%" width="5%" class="d-inline-block" style="min-height: 50px; min-width: 50px;">
+        <a class="navbar-brand fw-bolder" href="#">
           JelajahNusantara
         </a>
-      </div>
-      <!-- <a class="navbar-brand fw-bolder " href="#">
-        <img src="./assets/img/logo-jenus.png" width="15%" height="15%" class="d-inline-block align-top" alt="">
-        JelajahNusantara
-      </a> -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+        <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
-          <!-- <li class="nav-item">
-            <a class="nav-link" href="guidebook.html">Guidebook</a>
-          </li> -->
           <li class="nav-item">
             <a class="nav-link" href="booking.html">Booking</a>
           </li>
@@ -70,140 +63,103 @@
   </nav>
 
   <!-- ============================== SECTION 1 ============================== -->
-  <section id="sec1" class="container">
-    <div class="top">
-      <div class="content">
+
+  <section id="sec1" class="container pt-3">
+    <div class="row gy-4">
+      <!-- <div class="col-12 text-center">
         <h1>Rekomendasi Wisata</h1>
         <p>Bingung mau liburan kemana? Tenang, kami punya solusinya!
           Berikut beberapa wisata yang mungkin kamu sukai.</p>
+      </div> -->
+      <div class="col-auto">
+        <h1>Jatim Park 2</h1>
+        <p>⭐⭐⭐⭐⭐  (9999 review)</p>
       </div>
-      <!-- <div class="justify-content-between align-items-center"> -->
-      <div class="row ">
-        <div class="col">
-          <h1>Jatim Park 2</h1>
-          <h6>Rating: 5/5 ⭐⭐⭐⭐⭐</h6>
-        </div>
-        <div class="col">
-          <!-- <div class="content-2 justify-content-end"> -->
-          <h1>Start </h1>
-          <h6>Rp. 120.000</h6>
-          <button type="button" class="btn btn-info">Rewiew</button>
-          <!-- </div> -->
-        </div>
-      </div>
-    </div>
-
-    <div class="down">
-      <div class="row">
-        <div class="col ">
-          <img src="./assets/img/bromo.jpg" class="img-thumbnail" alt="...">
-        </div>
-        <div class="col">
-          <div class="row">
-            <div class="col ">
-              <img src="./assets/img/bromo.jpg" class="img-thumbnail" alt="...">
-            </div>
-            <div class="col ">
-              <img src="./assets/img/bromo.jpg" class="img-thumbnail" alt="...">
-            </div>
+      <div class="col-auto ms-auto">
+        <h2 class="text-end">Start from</h2>
+        <h1>Rp. 120.000</h1>
+        <div class="row">
+          <div class="col-12 d-flex justify-content-end">
+            <button type="button" class="btn btn-info">Review</button>
           </div>
-          <div class="row">
-            <div class="col pt-3">
-              <img src="./assets/img/bromo.jpg" class="img-thumbnail" alt="...">
-            </div>
-            <div class="col pt-3">
-              <img src="./assets/img/bromo.jpg" class="img-thumbnail" alt="...">
-            </div>
+        </div>
+      </div>
+      <div class="w-100"></div>
+      <div class="col-xl-6 col-12"> 
+          <img src="./assets/img/bromo.jpg" class="img-fluid rounded" alt="...">
+      </div>
+      <div class="col-xl-6 col-12" >
+        <div class="row gx-4 gy-3">
+          <div class="col-6">
+            <img src="./assets/img/raja-ampat.jpg" class="img-fluid rounded"  alt="...">
+          </div>
+          <div class="col-6">
+            <img src="./assets/img/jumbotron.jpg" class="img-fluid rounded" alt="...">
+          </div>
+          <div class="col-6">
+            <img src="./assets/img/bromo.jpg" class="img-fluid rounded" alt="...">
+          </div>
+          <div class="col-6">
+            <img src="./assets/img/bromo.jpg" class="img-fluid rounded" alt="...">
           </div>
         </div>
       </div>
     </div>
-    <!-- </div> -->
-
   </section>
 
   <!-- ============================== SECTION 2 ============================== -->
-  <section id="sec2" class="container">
-    <div class="row">
-      <div class="col p-3 bg-warning text-white">
-        <div class="col p-3 bg-info text-white">.col</div>
 
-      </div>
-
-      <!-- <div class="col p-3 bg-dark text-white"> -->
-      <div class="row">
-        <div class="col p-3 bg-primary text-white">.col</div>
-        <div class="col p-3 bg-success text-white">.col</div>
-      </div>
-
-    </div>
-    <!-- </div> -->
-
-    </div>
-
-  </section>
-
-  <!-- ============================== SECTION 3 ============================== -->
-  <!-- <section id="sec3" class="container">
-    <div class="row">
-      <div class="col p-3 bg-warning text-white">
-        <div class="col p-3 bg-info text-white">.col</div>
-
-      </div>
-
-
-      <div class="col p-3 bg-dark text-white">
-        <div class="row">
-          <div class="col p-3 bg-primary text-white">.col</div>
-          <div class="col p-3 bg-success text-white">.col</div>
+  <section id="sec2" style="margin-top: 25px;">
+    <div class="container">
+      <div class="row gy-3" style="margin-inline: 0px;">
+        <div class="col-12 py-3 px-5" style="background: #219EBC;">
+          <div class="row">
+            <div class="col-auto me-auto">
+              <h1>Fasilitas</h1>
+              <div class="d-flex pt-3">
+                <i class="fa-solid fa-house pe-2"></i> <p class="pe-md-5 me-md-5 pe-2 me-0">Penginapan</p>
+                <i class="fa-solid fa-martini-glass pe-2"></i> <p>Restoran</p>
+              </div>
+            </div>
+            <div class="col-2 d-flex align-items-center justify-content-center">
+              <button type="button" class="btn btn-info">Booking</button>
+            </div>
+          </div>
         </div>
-
+        <div class="col-12 py-3 px-5" style="background: #219EBC;">
+          <div class="row">
+            <div class="col-auto me-auto">
+              <h1>Harga</h1>
+              <div class="d-xs-flex pt-3 ">
+                <h2 class="pe-5 me-5">Weekday</h2>
+                <h3 class="pe-5 me-5">Batu Secret Zoo + Museum Satwa</h3>
+                <h1>Rp. 120.000</h1>
+              </div>
+            </div>
+            <div class="col-2 d-flex align-items-center justify-content-center">
+              <button type="button" class="btn btn-info">Selengkapnya</button>
+            </div>
+          </div>
+        </div>
+      </div>
       </div>
     </div>
-
-    </div>
-  </section> -->
-
-  <!-- ============================== SECTION 4 ============================== -->
-  <!-- <section id="sec4" class="container">
-    <div class="card">
-      <div class="card-header">
-        Quote
-      </div>
-      <div class="card-body">
-        <blockquote class="blockquote mb-0">
-          <p>A well-known quote, contained in a blockquote element.</p>
-          <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
-        </blockquote>
-      </div>
-    </div>
-  </section> -->
-
-  <!-- ============================== SECTION 5 ============================== -->
-  <!-- <section id="sec5" class="container">
-    <div class="content">
-      <h2 class="title"><span class="border-bottom">Berbagi</span> Untuk Lestari.</h2>
-
-    </div>
-  </section> -->
+  </section>
 
   <!-- =============================== FOOTER =============================== -->
 
   <footer class="p-5 justify-content-between align-items-center mt-4">
     <div class="row border-bottom">
-      <div class="col">
+      <div class="col-2 me-auto">
         <a class="logo">
-          <img src="assets/img/logo-footer-putih.png" alt="jENUS" width="30%" />
+          <img src="assets/img/logo-footer-putih.png" alt="jENUS" width="30%" style="min-width: 200px;;"/>
         </a>
       </div>
-      <div class="col">
+      <div class="col-8">
         <ul class="nav pb-3 mb-3 justify-content-end">
           <li class="nav-item">
             <a href="index.html" class="nav-link px-2 text-light">Home</a>
           </li>
-          <!-- <li class="nav-item">
-            <a href="guidebook.html" class="nav-link px-2 text-light ">Guidebook</a>
-          </li> -->
           <li class="nav-item">
             <a href="booking.html" class="nav-link px-2 text-light">Booking</a>
           </li>
@@ -272,16 +228,11 @@
     </div>
 
   </footer>
-
-
   <!-- ============================== JS SCRIPT ============================== -->
   <!-- <script src="assets/js/navbar.js"></script>
   <script src="assets/js/filter.js"></script> -->
 
   <!-- Bootsrap JS -->
-  <script src="assets/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
-
-
+  <script src="assets/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>
