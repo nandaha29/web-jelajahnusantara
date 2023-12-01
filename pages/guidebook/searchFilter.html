@@ -103,9 +103,9 @@
               <!-- <div class="card-footer text-muted" style="background-color: white;"> -->
               <h6 class="card-text ">Rating: 5/5 ⭐⭐⭐⭐⭐ </h6>
               <div class="tombol text-end">
-                <!-- <a href="../../guidebook.html" class="btn btn-outline-warning">Review</a> -->
                 <!-- Button trigger modal -->
-                <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <button type="button" class="btn btn-warning" data-bs-toggle="modal"
+                  data-bs-target="#exampleModalReview">
                   Review
                 </button>
                 <a href="../../guidebook.html" class="btn btn-warning">Lihat Guidebook</a>
@@ -131,6 +131,11 @@
               <!-- <div class="card-footer text-muted" style="background-color: white;"> -->
               <h6 class="card-text ">Rating: 5/5 ⭐⭐⭐⭐⭐</h6>
               <div class="tombol text-end">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-warning" data-bs-toggle="modal"
+                  data-bs-target="#exampleModalReview">
+                  Review
+                </button>
                 <a href="../../guidebook.html" class="btn btn-warning">Lihat Guidebook</a>
               </div>
               <!-- </div> -->
@@ -148,8 +153,8 @@
 
   <!-- ============================== SECTION MODAL ============================== -->
 
-  <!-- Modal modal-fullscreen-->
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <!-- Modal REVIEW-->
+  <div class="modal fade" id="exampleModalReview" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-xl modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-header">
@@ -169,7 +174,10 @@
               <p class="text-light">More review from other guest</p>
             </div>
             <div class="col-auto ms-auto">
-              <button type="button" class="btn btn-light">+ Tambah Komentar</button>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModalMengisi">
+                + Tambah Ulasan
+              </button>
             </div>
           </div>
           <div class="row p-2 justify-content-center">
@@ -182,6 +190,7 @@
                     Kota Batu. Kami mengunjungi Jatim Park
                     2 dan kami tidak kecewa. Saya sangat senang”
                   </p>
+                  <p class="text-dark">More picture ..</p>
                 </div>
               </div>
             </div>
@@ -195,7 +204,7 @@
                     Kota Batu. Kami mengunjungi Jatim Park
                     2 dan kami tidak kecewa. Saya sangat senang”
                   </p>
-
+                  <p class="text-dark">More picture ..</p>
                 </div>
               </div>
             </div>
@@ -209,16 +218,76 @@
                     Kota Batu. Kami mengunjungi Jatim Park
                     2 dan kami tidak kecewa. Saya sangat senang”
                   </p>
+                  <p class="text-dark">More picture ..</p>
                 </div>
               </div>
             </div>
             <div class="row pt-2">
               <p class="text-light">More review ..</p>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal MENGISI-->
+  <div class="modal fade" id="exampleModalMengisi" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Review</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body" style="background: #219EBC;">
+          <div class="row">
+            <div class="col-auto">
+              <h1 class="text-light">Jawa Timur Park 2</h1>
+              <p class="text-light">⭐⭐⭐⭐⭐ (9999 review)</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <!-- <h1 class="text-light">Silahkan Memasukkan Komentar Anda</h1> -->
+              <p class="text-light">Silahkan Memasukkan Ulasan Anda</p>
+            </div>
+          </div>
+          <div class="row p-2 justify-content-center">
+
+            <div class="row">
+              <div class="col-sm-4 p-3 ">
+                <div class="col p-3 ">
+                  <h4>Berikan Nilai</h4>
+                </div>
+                <div class="col p-3 ">
+                  <h4>Ketik Ulasan</h4>
+                </div>
+                <div class="col p-3 ">Tambah Foto / Video</div>
+
+              </div>
+              <div class="col-sm-8 p-3 ">
+                <div class="col p-3 ">⭐⭐⭐⭐⭐</div>
+                <div class="col p-3">
+                  <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                      style="height: 100px"></textarea>
+                    <label for="floatingTextarea2">Ulasan</label>
+                  </div>
+                </div>
+                <div class="col p-3 ">
+                  <div class="input-group mb-3">
+                    <input type="file" class="form-control" id="inputGroupFile02">
+                    <label class="input-group-text" for="inputGroupFile02">Upload</label>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
             <!-- <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
-        </div> -->
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div> -->
           </div>
         </div>
       </div>
