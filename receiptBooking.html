@@ -11,7 +11,7 @@
   <!-- ================================= CSS ================================= -->
 
   <!-- Index CSS -->
-  <link rel="stylesheet" href="assets/css/guidebook.css" />
+  <link rel="stylesheet" href="assets/css/index.css" />
 
   <!-- Navbar CSS -->
   <link rel="stylesheet" href="assets/css/navbar.css" />
@@ -41,9 +41,9 @@
         </a>
       </div>
       <!-- <a class="navbar-brand fw-bolder " href="#">
-          <img src="./assets/img/logo-jenus.png" width="15%" height="15%" class="d-inline-block align-top" alt="">
-          JelajahNusantara
-        </a> -->
+        <img src="./assets/img/logo-jenus.png" width="15%" height="15%" class="d-inline-block align-top" alt="">
+        JelajahNusantara
+      </a> -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -51,10 +51,10 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
           <li class="nav-item">
-            <a class="nav-link " aria-current="page" href="index.html">Home</a>
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
           </li>
           <!-- <li class="nav-item">
-            <a class="nav-link active" href="guidebook.html">Guidebook</a>
+            <a class="nav-link" href="guidebook.html">Guidebook</a>
           </li> -->
           <li class="nav-item">
             <a class="nav-link" href="booking.html">Booking</a>
@@ -70,92 +70,153 @@
   </nav>
 
   <!-- ============================== SECTION 1 ============================== -->
-  <section id="sec1" class="container me-4">
+  <section id="sec1" class="containers">
+    <div class="jumbotron container text-center">
+      <h1 class="display-4 fw-bold">Start your new journey with us!</h1>
+      <p class="lead fw-normal">“When you don't know what to do, just take the first step. The rest will figure itself
+        out naturally.”</p>
+      <form class="d-flex ">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+        <button class="btn btn-warning" type="submit">Search</button>
+      </form>
+
+    </div>
+  </section>
+
+  <!-- ============================== SECTION 2 ============================== -->
+  <section id="sec2" class="container">
     <div class="top">
-      <h1>Your Guide Book</h1>
-      <p>Buku Panduan untuk membantu memaksimalkan pengalaman perjalananmu</p>
+      <h1>Rekomendasi Wisata</h1>
+      <p>Bingung mau liburan kemana? Tenang, kami punya solusinya!
+        Berikut beberapa wisata yang mungkin kamu sukai.</p>
+    </div>
+
+    <div class="down container">
+      <div class="row justify-content-center">
+        <div class="col">
+          <div class="card bg-dark text-white">
+            <img src="./assets/img/gunung-bromo.jpg" class="card-img" alt="...">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Gunung Bromo</h5>
+              <p class="card-text">Salah satu gunung aktif di Jawa Timur dengan beragam destinasi dan kekayaan floran
+                yang menyelimuti dataran pegunungan.</p>
+              <p class="card-text">Last updated 3 mins ago</p>
+              <a href="./tampilanDestinasi.html" class="btn btn-warning">Lihat Selengkapnya</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card bg-dark text-white">
+            <img src="./assets/img/raja-ampat.jpg" class="card-img" alt="...">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Raja Ampat</h5>
+              <p class="card-text">Tempat snorkling terbaik di dunia, sembari menikmati keindahan suasana pantai penuh
+                ketenangan.</p>
+              <p class="card-text">Last updated 10 mins ago</p>
+              <a href="./tampilanDestinasi.html" class="btn btn-warning">Lihat Selengkapnya</a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-center mt-4">
+        <div class="col">
+          <div class="card bg-dark text-white">
+            <img src="./assets/img/Taman-Dedari.jpg" class="card-img" alt="...">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Taman Dedari Ubud</h5>
+              <p class="card-text">Menyuguhkan pemandangan alam Sungai Ayung dalam konsep dunia fantasi bersama para
+                bidadari.</p>
+              <p class="card-text">Last updated 5 mins ago</p>
+              <a href="./tampilanDestinasi.html" class="btn btn-warning">Lihat Selengkapnya</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card bg-dark text-white">
+            <img src="./assets/img/taman_bunga_nusantara.jpg" class="card-img" alt="...">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Taman Bunga Nusantara</h5>
+              <p class="card-text">Taman display bunga pertama di Indonesia,
+                dengan berbagai koleksi tanaman berbunga yang terkenal dan unik dari seluruh dunia.</p>
+              <p class="card-text">Last updated 30 mins ago</p>
+              <a href="./tampilanDestinasi.html" class="btn btn-warning">Lihat Selengkapnya</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- ============================== SECTION 3 ============================== -->
+  <!-- bg-light -->
+  <section id="sec3" class="container mb-2">
+    <div class="top">
+      <p class="lead fw-normal mb-1ss">Our process</p>
+      <h1>Get started as easy as 1, 2, 3</h1>
+      <p>Panduan singkat untuk kamu yang ingin berlibur dengan mudah dan cepat</p>
     </div>
     <div class="down container">
-
       <div class="row justify-content-center">
         <div class="col">
           <div class="card" style="width: 18rem;">
-            <img src="./assets/img/budaya.png" class="card-img" alt="...">
+            <img src="./assets/img/searching.jpg" class="card-img" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Budaya</h5>
-              <p class="card-text">Yuk pelajari budaya dan adat istiadat lokal.
-              </p>
-              <a href="./pages/guidebook/budaya.html" class="btn btn-warning">Lihat Selengkapnya</a>
+              <h2>Search your destination</h2>
+              <p class="card-text">Cari dan tentukan destinasi yang ingin kamu kunjungi</p>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card" style="width: 18rem;">
-            <img src="./assets/img/makanan.jpg" class="card-img" alt="...">
+            <img src="./assets/img/sign-in.jpg" class="card-img" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Makanan</h5>
-              <p class="card-text">Rekomendasi tempat dan menu makan di sekitarmu.
-              </p>
-              <a href="./pages/guidebook/makanan.html" class="btn btn-warning">Lihat Selengkapnya</a>
+              <h2>Sign in as traveler</h2>
+              <p class="card-text">Buat akun dan daftarkan diri anda sebagai wisatawan</p>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card" style="width: 18rem;">
-            <img src="./assets/img/atraksi.png" class="card-img" alt="...">
+            <img src="./assets/img/online-booking.jpg" class="card-img" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Atraksi</h5>
-              <p class="card-text">Rekomendasi wahana dan atraksi yang ada di sekitarmu.
-              </p>
-              <a href="./pages/guidebook/atraksi.html" class="btn btn-warning">Lihat Selengkapnya</a>
+              <h2>Book your ticket now</h2>
+              <p class="card-text">Jangan lupa reservasi kebutuhan perjalananmu</p>
             </div>
           </div>
         </div>
-
-        <div class="row justify-content-center mt-4">
-          <div class="col">
-            <div class="card" style="width: 18rem;">
-              <img src="./assets/img/acara.png" class="card-img" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Acara</h5>
-                <p class="card-text">Jadwal acara dan festival yang sedang berlangsung di sekitarmu.
-                </p>
-                <a href="./pages/guidebook/acara.html" class="btn btn-warning">Lihat Selengkapnya</a>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card" style="width: 18rem;">
-              <img src="./assets/img/kegiatan.png" class="card-img" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Kegiatan</h5>
-                <p class="card-text">Rekomendasi tempat dan aktivitas terdekat yang dapat kamu nikmati.
-                </p>
-                <a href="./pages/guidebook/kegiatan.html" class="btn btn-warning">Lihat Selengkapnya</a>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card" style="width: 18rem;">
-              <img src="./assets/img/oleholeh.png" class="card-img" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Oleh-Oleh</h5>
-                <p class="card-text">Daftar tempat dan jenis oleh-oleh yang bisa kamu bawa pulang.
-                </p>
-                <a href="./pages/guidebook/oleholeh.html" class="btn btn-warning">Lihat Selengkapnya</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
+      </div>
   </section>
 
   <!-- ============================== SECTION 4 ============================== -->
+  <!-- <section id="sec4" class="container">
+    <div class="card">
+      <div class="card-header">
+        Quote
+      </div>
+      <div class="card-body">
+        <blockquote class="blockquote mb-0">
+          <p>A well-known quote, contained in a blockquote element.</p>
+          <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+        </blockquote>
+      </div>
+    </div>
+  </section> -->
+
   <!-- ============================== SECTION 5 ============================== -->
+  <!-- <section id="sec5" class="container">
+    <div class="content">
+      <h2 class="title"><span class="border-bottom">Berbagi</span> Untuk Lestari.</h2>
+
+    </div>
+  </section> -->
+
   <!-- =============================== FOOTER =============================== -->
 
-  <footer class="p-5 justify-content-between align-items-center mt-5">
+  <footer class="p-5 justify-content-between align-items-center mt-4">
     <div class="row border-bottom">
       <div class="col">
         <a class="logo">

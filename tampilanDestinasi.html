@@ -83,7 +83,12 @@
         <h1>Rp. 120.000</h1>
         <div class="row">
           <div class="col-12 d-flex justify-content-end">
-            <button type="button" class="btn btn-info">Review</button>
+            <!-- <a href="./booking.html" class="btn btn-info">Review</a> -->
+            <!-- <button type="button" class="btn btn-info">Review</button> -->
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#exampleModalReview">
+              Review
+            </button>
           </div>
         </div>
       </div>
@@ -127,7 +132,7 @@
               </div>
             </div>
             <div class="col-2 d-flex align-items-center justify-content-center">
-              <button type="button" class="btn btn-info">Booking</button>
+              <a href="./booking.html"><button type="button" class="btn btn-info">Booking</button></a>
             </div>
           </div>
         </div>
@@ -142,7 +147,8 @@
               </div>
             </div>
             <div class="col-2 d-flex align-items-center justify-content-center">
-              <button type="button" class="btn btn-info">Selengkapnya</button>
+              <a href="./fasilitasDestinasi.html"><button type="button" class="btn btn-info">Selengkapnya</button></a>
+
             </div>
           </div>
         </div>
@@ -150,6 +156,86 @@
     </div>
     </div>
   </section>
+
+  <!-- ============================== SECTION MODAL ============================== -->
+
+  <!-- Modal REVIEW-->
+  <div class="modal fade" id="exampleModalReview" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Review</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body" style="background: #219EBC;">
+          <div class="row">
+            <div class="col-auto">
+              <h1 class="text-light">Jawa Timur Park 2</h1>
+              <p class="text-light">⭐⭐⭐⭐⭐ (9999 review)</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <h1 class="text-light">Review</h1>
+              <p class="text-light">More review from other guest</p>
+            </div>
+            <div class="col-auto ms-auto">
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModalMengisi">
+                + Tambah Ulasan
+              </button>
+            </div>
+          </div>
+          <div class="row p-2 justify-content-center">
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Review Pelanggan</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Dari: Keluarga Saipul</h6>
+                  <p class="card-text">“Jatim Park 2 destinasi wisata yang saya kunjungi selama liburan keluarga saya di
+                    Kota Batu. Kami mengunjungi Jatim Park
+                    2 dan kami tidak kecewa. Saya sangat senang”
+                  </p>
+                  <p class="text-dark">More picture ..</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Review Pelanggan</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Dari: Keluarga Ipul</h6>
+                  <p class="card-text">“Jatim Park 2 destinasi wisata yang saya kunjungi selama liburan keluarga saya
+                    di
+                    Kota Batu. Kami mengunjungi Jatim Park
+                    2 dan kami tidak kecewa. Saya sangat senang”
+                  </p>
+                  <p class="text-dark">More picture ..</p>
+                </div>
+              </div>
+            </div>
+            <div class="col ">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Review Pelanggan</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Dari: Keluarga Cipung</h6>
+                  <p class="card-text">“Jatim Park 2 destinasi wisata yang saya kunjungi selama liburan keluarga
+                    saya di
+                    Kota Batu. Kami mengunjungi Jatim Park
+                    2 dan kami tidak kecewa. Saya sangat senang”
+                  </p>
+                  <p class="text-dark">More picture ..</p>
+                </div>
+              </div>
+            </div>
+            <div class="row pt-2">
+              <p class="text-light">More review ..</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- =============================== FOOTER =============================== -->
 

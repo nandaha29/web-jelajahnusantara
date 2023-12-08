@@ -11,16 +11,21 @@
   <!-- ================================= CSS ================================= -->
 
   <!-- Index CSS -->
-  <link rel="stylesheet" href="assets/css/guidebook.css" />
+  <link rel="stylesheet" href="./assets/css/fasilitasDestinasi.css" />
 
   <!-- Navbar CSS -->
-  <link rel="stylesheet" href="assets/css/navbar.css" />
+  <link rel="stylesheet" href="./assets/css/navbar.css" />
 
   <!-- Footer CSS -->
-  <link rel="stylesheet" href="assets/css/footer.css" />
+  <link rel="stylesheet" href="./assets/css/footer.css" />
 
   <!-- Bootsrap CSS -->
-  <link rel="stylesheet" href="assets/bootstrap-5.0.2-dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./assets/bootstrap-5.0.2-dist/css/bootstrap.min.css" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
   <!-- ============================= INITIAL  JS ============================= -->
@@ -31,31 +36,22 @@
 <body>
 
   <!-- =============================== NAVBAR =============================== -->
-  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light rounded-bottom shadow-sm">
-    <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded-bottom"> -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light rounded-bottom shadow-sm">
     <div class="container-fluid ms-5 me-5">
-      <div class="container">
-        <img src="./assets/img/logo-jenus.png" width="5%" height="5%" class="d-inline-block " alt="">
-        <a class="navbar-brand fw-bolder " href="#">
-          JelajahNusantara
-        </a>
-      </div>
-      <!-- <a class="navbar-brand fw-bolder " href="#">
-          <img src="./assets/img/logo-jenus.png" width="15%" height="15%" class="d-inline-block align-top" alt="">
-          JelajahNusantara
-        </a> -->
+      <img src="./assets/img/logo-jenus.png" height="5%" width="5%" class="d-inline-block"
+        style="min-height: 50px; min-width: 50px;">
+      <a class="navbar-brand fw-bolder" href="#">
+        JelajahNusantara
+      </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+        <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
           <li class="nav-item">
-            <a class="nav-link " aria-current="page" href="index.html">Home</a>
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
           </li>
-          <!-- <li class="nav-item">
-            <a class="nav-link active" href="guidebook.html">Guidebook</a>
-          </li> -->
           <li class="nav-item">
             <a class="nav-link" href="booking.html">Booking</a>
           </li>
@@ -70,22 +66,37 @@
   </nav>
 
   <!-- ============================== SECTION 1 ============================== -->
-  <section id="sec1" class="container me-4">
-    <div class="top">
-      <h1>Your Guide Book</h1>
-      <p>Buku Panduan untuk membantu memaksimalkan pengalaman perjalananmu</p>
-    </div>
-    <div class="down container">
 
-      <div class="row justify-content-center">
+  <section id="sec1" class="container " style="background: #219EBC;">
+    <div class="row ">
+
+      <div class="row">
+        <div class="col-auto">
+          <h1>Jawa Timur Park 2</h1>
+          <p>⭐⭐⭐⭐⭐ (9999 review)</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h1>Review</h1>
+          <p>Menyediakan kebutuhan seperti berikut:</p>
+        </div>
+        <div class="col-auto ms-auto">
+          <!-- Button trigger modal -->
+          <!-- <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModalMengisi">
+            + Tambah Ulasan
+          </button> -->
+          <a href="./guidebook.html"><button type="button" class="btn btn-light">Selengkapnya</button></a>
+        </div>
+      </div>
+      <div class="row p-2 justify-content-center">
         <div class="col">
           <div class="card" style="width: 18rem;">
             <img src="./assets/img/budaya.png" class="card-img" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Budaya</h5>
+              <h5 class="card-title">Deskripsi Fasilitas</h5>
               <p class="card-text">Yuk pelajari budaya dan adat istiadat lokal.
               </p>
-              <a href="./pages/guidebook/budaya.html" class="btn btn-warning">Lihat Selengkapnya</a>
             </div>
           </div>
         </div>
@@ -93,83 +104,126 @@
           <div class="card" style="width: 18rem;">
             <img src="./assets/img/makanan.jpg" class="card-img" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Makanan</h5>
-              <p class="card-text">Rekomendasi tempat dan menu makan di sekitarmu.
+              <h5 class="card-title">Deskripsi Fasilitas</h5>
+              <p class="card-text">Yuk pelajari budaya dan adat istiadat lokal.
               </p>
-              <a href="./pages/guidebook/makanan.html" class="btn btn-warning">Lihat Selengkapnya</a>
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col ">
           <div class="card" style="width: 18rem;">
-            <img src="./assets/img/atraksi.png" class="card-img" alt="...">
+            <img src="./assets/img/budaya.png" class="card-img" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Atraksi</h5>
-              <p class="card-text">Rekomendasi wahana dan atraksi yang ada di sekitarmu.
+              <h5 class="card-title">Deskripsi Fasilitas</h5>
+              <p class="card-text">Yuk pelajari budaya dan adat istiadat lokal.
               </p>
-              <a href="./pages/guidebook/atraksi.html" class="btn btn-warning">Lihat Selengkapnya</a>
             </div>
           </div>
         </div>
-
-        <div class="row justify-content-center mt-4">
-          <div class="col">
-            <div class="card" style="width: 18rem;">
-              <img src="./assets/img/acara.png" class="card-img" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Acara</h5>
-                <p class="card-text">Jadwal acara dan festival yang sedang berlangsung di sekitarmu.
-                </p>
-                <a href="./pages/guidebook/acara.html" class="btn btn-warning">Lihat Selengkapnya</a>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card" style="width: 18rem;">
-              <img src="./assets/img/kegiatan.png" class="card-img" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Kegiatan</h5>
-                <p class="card-text">Rekomendasi tempat dan aktivitas terdekat yang dapat kamu nikmati.
-                </p>
-                <a href="./pages/guidebook/kegiatan.html" class="btn btn-warning">Lihat Selengkapnya</a>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card" style="width: 18rem;">
-              <img src="./assets/img/oleholeh.png" class="card-img" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Oleh-Oleh</h5>
-                <p class="card-text">Daftar tempat dan jenis oleh-oleh yang bisa kamu bawa pulang.
-                </p>
-                <a href="./pages/guidebook/oleholeh.html" class="btn btn-warning">Lihat Selengkapnya</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
+        <!-- <div class="row pt-2">
+          <p class="text-light">More review ..</p>
+        </div> -->
+      </div>
+    </div>
+    </div>
   </section>
 
-  <!-- ============================== SECTION 4 ============================== -->
-  <!-- ============================== SECTION 5 ============================== -->
+  <!-- ============================== SECTION 2 ============================== -->
+
+  <!-- ============================== SECTION MODAL ============================== -->
+
+  <!-- Modal REVIEW-->
+  <div class="modal fade" id="exampleModalReview" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Review</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-auto">
+              <h1 class="text-light">Jawa Timur Park 2</h1>
+              <p class="text-light">⭐⭐⭐⭐⭐ (9999 review)</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <h1 class="text-light">Review</h1>
+              <p class="text-light">Menyediakan kebutuhan seperti berikut:</p>
+            </div>
+            <div class="col-auto ms-auto">
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModalMengisi">
+                + Tambah Ulasan
+              </button>
+            </div>
+          </div>
+          <div class="row p-2 justify-content-center">
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Review Pelanggan</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Dari: Keluarga Saipul</h6>
+                  <p class="card-text">“Jatim Park 2 destinasi wisata yang saya kunjungi selama liburan keluarga saya di
+                    Kota Batu. Kami mengunjungi Jatim Park
+                    2 dan kami tidak kecewa. Saya sangat senang”
+                  </p>
+                  <p class="text-dark">More picture ..</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Review Pelanggan</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Dari: Keluarga Ipul</h6>
+                  <p class="card-text">“Jatim Park 2 destinasi wisata yang saya kunjungi selama liburan keluarga saya
+                    di
+                    Kota Batu. Kami mengunjungi Jatim Park
+                    2 dan kami tidak kecewa. Saya sangat senang”
+                  </p>
+                  <p class="text-dark">More picture ..</p>
+                </div>
+              </div>
+            </div>
+            <div class="col ">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Review Pelanggan</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Dari: Keluarga Cipung</h6>
+                  <p class="card-text">“Jatim Park 2 destinasi wisata yang saya kunjungi selama liburan keluarga
+                    saya di
+                    Kota Batu. Kami mengunjungi Jatim Park
+                    2 dan kami tidak kecewa. Saya sangat senang”
+                  </p>
+                  <p class="text-dark">More picture ..</p>
+                </div>
+              </div>
+            </div>
+            <div class="row pt-2">
+              <p class="text-light">More review ..</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- =============================== FOOTER =============================== -->
 
-  <footer class="p-5 justify-content-between align-items-center mt-5">
+  <footer class="p-5 justify-content-between align-items-center mt-4">
     <div class="row border-bottom">
-      <div class="col">
+      <div class="col-2 me-auto">
         <a class="logo">
-          <img src="assets/img/logo-footer-putih.png" alt="jENUS" width="30%" />
+          <img src="assets/img/logo-footer-putih.png" alt="jENUS" width="30%" style="min-width: 200px;;" />
         </a>
       </div>
-      <div class="col">
+      <div class="col-8">
         <ul class="nav pb-3 mb-3 justify-content-end">
           <li class="nav-item">
             <a href="index.html" class="nav-link px-2 text-light">Home</a>
           </li>
-          <!-- <li class="nav-item">
-            <a href="guidebook.html" class="nav-link px-2 text-light ">Guidebook</a>
-          </li> -->
           <li class="nav-item">
             <a href="booking.html" class="nav-link px-2 text-light">Booking</a>
           </li>
@@ -238,16 +292,12 @@
     </div>
 
   </footer>
-
-
   <!-- ============================== JS SCRIPT ============================== -->
   <!-- <script src="assets/js/navbar.js"></script>
   <script src="assets/js/filter.js"></script> -->
 
   <!-- Bootsrap JS -->
-  <script src="assets/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
-
-
+  <script src="assets/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
