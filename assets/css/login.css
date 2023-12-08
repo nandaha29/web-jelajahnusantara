@@ -1,0 +1,159 @@
+/* ====================================== UNIVERSAL ====================================== */
+
+
+/* ====================================== SECTION 1 ====================================== */
+#sec1 {
+    background: #006D5B;
+}
+
+#sec1 h1 {
+    color: var(--cool-gray-90, #21272A);
+    font-family: Roboto;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%; /* 46.2px */
+}
+
+#sec1 h2 {
+    color: var(--cool-gray-90, #21272A);
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 25.2px */
+}
+
+#sec1 h3 {
+    color: #21272A;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}
+
+
+#sec1 p {
+    color: #8D8BA7;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 16.8px */
+}
+
+#sec1 a {
+    text-decoration: none;
+    color: var(--primary-90, #001D6C);
+
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 140%; /* 19.6px */
+}
+
+#sec1 .form-label,
+#sec1 .form-check-label {
+    color: var(--cool-gray-90, #21272A);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 19.6px */
+}
+
+#sec1 .form-check-input {
+    border-radius: 0px;
+}
+
+#sec1 .invalid-password {
+    border-color: red !important;
+    color: red;
+}
+
+#sec1 .invalid-password i {
+    color: grey;
+}
+
+#sec1 .invalid-password input {
+    color: black;
+}
+
+#sec1 .valid-password {
+    color: green;
+}
+
+
+#sec1 .form-control,
+#sec1 .input-group .btn {
+    border-radius: 0px;
+    border: none;
+    border-bottom: 1px solid var(--cool-gray-30, #C1C7CD);
+    background: var(--cool-gray-10, #F2F4F8);
+    height: 48px;
+}
+
+#sec1 .input-group .btn:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+#sec1 .input-group .btn:hover {
+    background-color: var(--cool-gray-90, #21272A)
+}
+
+#sec1 .btn-login {
+    border-radius: 0px;
+    background: #023047;
+    padding-block: 16px;
+    width: 100%;
+
+    color: var(--default-white, #FFF);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 16px */
+    letter-spacing: 0.5px;
+}
+
+#sec1 .btn-social-media {
+    border-radius: 0px;
+    border: 2px solid #023047;
+    padding-block: 16px;
+    width: 100%;
+
+    color: #023047;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 16px */
+    letter-spacing: 0.5px;
+}
+
+#sec1 .card {
+    border: 1px solid var(--cool-gray-20, #DDE1E6);
+    background: var(--default-white, #FFF);
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-width:1200px) {
+    #sec1 .card {
+        padding: 80px;
+    }
+}
+
+@media (max-width:1200px) {
+    #sec1 {
+        padding-top: 50px;
+        padding-bottom: 150px;
+    }
+    
+    #sec1 .card {
+        padding: 40px;
+    }
+}
