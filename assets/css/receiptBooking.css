@@ -1,0 +1,54 @@
+/* ====================================== UNIVERSAL ====================================== */
+
+/* ====================================== SECTION 1 ====================================== */
+
+#sec1.container {
+  padding: 8rem;
+  width: 100%;
+  /* background-color: yellow; */
+  /* background: #219ebc; */
+  /* padding-top: 8rem; */
+  /* padding-bottom: 8rem; */
+}
+/* #sec1.container .top { */
+/* width: 45%; */
+/* margin: auto; */
+/* background-color: green; */
+/* margin-bottom: 3rem; */
+/* } */
+/* #sec1.container .top .row { */
+/* width: 45%; */
+/* margin: auto; */
+/* background-color: orange; */
+/* text-align: center; */
+/* justify-content: center; */
+/* margin-bottom: 3rem; */
+/* display: flex; */
+/* justify-content: space-between; */
+/* } */
+
+/* #sec1.container .content { */
+/* background-color: orange; */
+/* text-align: end; */
+/* justify-content: center; */
+/* } */
+/* #sec1.container .down { */
+/* background-color: green; */
+/* width: 100%; */
+/* } */
+/* #sec1.container .down .card {
+  background-color: green;
+} */
+
+/* #sec1.container .down .right-side {
+  text-align: end;
+  justify-content: center;
+} */
+
+.card-img {
+  width: 350px;
+  height: 190px;
+  border-radius: 20px;
+  background: var(--neutral-colors-color-400, #f2f1fa);
+  flex-shrink: 0;
+}

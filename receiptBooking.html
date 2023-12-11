@@ -11,7 +11,7 @@
   <!-- ================================= CSS ================================= -->
 
   <!-- Index CSS -->
-  <link rel="stylesheet" href="assets/css/index.css" />
+  <link rel="stylesheet" href="assets/css/receiptBooking.css" />
 
   <!-- Navbar CSS -->
   <link rel="stylesheet" href="assets/css/navbar.css" />
@@ -70,126 +70,99 @@
   </nav>
 
   <!-- ============================== SECTION 1 ============================== -->
-  <section id="sec1" class="containers">
-    <div class="jumbotron container text-center">
-      <h1 class="display-4 fw-bold">Start your new journey with us!</h1>
-      <p class="lead fw-normal">“When you don't know what to do, just take the first step. The rest will figure itself
-        out naturally.”</p>
-      <form class="d-flex ">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
-        <button class="btn btn-warning" type="submit">Search</button>
-      </form>
+  <section id="sec1" class="container">
+    <div class="row" style="background: #219EBC;">
+      <div class="col-sm-8 p-3 ">
+        <div class="col p-3 ">
+          <div class="row">
+            <div class="col-auto">
+              <h5>E-Ticket & Receipt</h5>
+            </div>
+            <div class="col-auto ms-auto">
+              <h5 class="text-end">05 Oktober 2023</h5>
+            </div>
+          </div>
+          <div class="col pt-2">
+            <div class="row pb-2">
+              <div class="col-sm-5 pt-1 ">
+                <label for="exampleFormControlInput1" class="form-label fw-normal fs-5">Email address</label>
+              </div>
+              <div class="col-sm-7 ">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Sinta">
+              </div>
+            </div>
+            <div class="row pb-2">
+              <div class="col-sm-5 pt-1 ">
+                <label for="exampleFormControlInput1" class="form-label fw-normal fs-5"> No. Telp</label>
+              </div>
+              <div class="col-sm-7   ">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="08748592172">
+              </div>
+            </div>
+            <div class="row pb-2">
+              <div class="col-sm-5 pt-1 ">
+                <label for="exampleFormControlInput1" class="form-label fw-normal fs-5">Email</label>
+              </div>
+              <div class="col-sm-7  ">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="sinta@gmail.com">
+              </div>
+            </div>
+            <div class="row pb-2">
+              <div class="col-sm-5 pt-1">
+                <label for="exampleFormControlInput1" class="form-label fw-normal fs-5">Tanggal Reservasi</label>
+              </div>
+              <div class="col-sm-7 ">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="09 Oktober 2023">
+                <p class="">*Info transanksi telah berhasil</p>
+              </div>
+            </div>
 
+            <div class="row">
+              <p>Harga Tiket Jawa Timur Park 2</p>
+              <div class="col-sm-6 ps-3 ">
+                <p class="text-white">~ Batu Secret Zoo + Museum Satwa</p>
+              </div>
+              <div class="col-sm-2 ps-3 ">
+                <p class="text-dark">2 pax</p>
+              </div>
+
+              <div class="col-auto ms-auto ps-3 ">
+                <h5 class="text-white">Rp. 120.000</h5>
+              </div>
+            </div>
+
+            <hr>
+            <div class="row">
+              <div class="col ps-3 ">
+                <h5>Total Pembayaran</h5>
+              </div>
+              <div class="col ps-3 col-auto ms-auto">
+                <h5 class="text-white">Rp. 240.000</h5>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-sm-4 p-3 bg-dark text-white">
+        <div class="col p-3 text-center text-white">
+          <h3>Your Booking Code</h3>
+          <h5>JAR78E</h5>
+          <img src="./assets/img/barcode-contoh.PNG" width="50%" height="50%" class="d-inline-block pt-4" alt="">
+
+        </div>
+        <div class="col pt-5 text-center ">
+          <a href="./guidebook.html"><button type="button" class="btn btn-warning">Unduh Receipt</button></a>
+        </div>
+      </div>
     </div>
   </section>
 
   <!-- ============================== SECTION 2 ============================== -->
-  <section id="sec2" class="container">
-    <div class="top">
-      <h1>Rekomendasi Wisata</h1>
-      <p>Bingung mau liburan kemana? Tenang, kami punya solusinya!
-        Berikut beberapa wisata yang mungkin kamu sukai.</p>
-    </div>
-
-    <div class="down container">
-      <div class="row justify-content-center">
-        <div class="col">
-          <div class="card bg-dark text-white">
-            <img src="./assets/img/gunung-bromo.jpg" class="card-img" alt="...">
-            <div class="card-img-overlay">
-              <h5 class="card-title">Gunung Bromo</h5>
-              <p class="card-text">Salah satu gunung aktif di Jawa Timur dengan beragam destinasi dan kekayaan floran
-                yang menyelimuti dataran pegunungan.</p>
-              <p class="card-text">Last updated 3 mins ago</p>
-              <a href="./tampilanDestinasi.html" class="btn btn-warning">Lihat Selengkapnya</a>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card bg-dark text-white">
-            <img src="./assets/img/raja-ampat.jpg" class="card-img" alt="...">
-            <div class="card-img-overlay">
-              <h5 class="card-title">Raja Ampat</h5>
-              <p class="card-text">Tempat snorkling terbaik di dunia, sembari menikmati keindahan suasana pantai penuh
-                ketenangan.</p>
-              <p class="card-text">Last updated 10 mins ago</p>
-              <a href="./tampilanDestinasi.html" class="btn btn-warning">Lihat Selengkapnya</a>
-
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row justify-content-center mt-4">
-        <div class="col">
-          <div class="card bg-dark text-white">
-            <img src="./assets/img/Taman-Dedari.jpg" class="card-img" alt="...">
-            <div class="card-img-overlay">
-              <h5 class="card-title">Taman Dedari Ubud</h5>
-              <p class="card-text">Menyuguhkan pemandangan alam Sungai Ayung dalam konsep dunia fantasi bersama para
-                bidadari.</p>
-              <p class="card-text">Last updated 5 mins ago</p>
-              <a href="./tampilanDestinasi.html" class="btn btn-warning">Lihat Selengkapnya</a>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card bg-dark text-white">
-            <img src="./assets/img/taman_bunga_nusantara.jpg" class="card-img" alt="...">
-            <div class="card-img-overlay">
-              <h5 class="card-title">Taman Bunga Nusantara</h5>
-              <p class="card-text">Taman display bunga pertama di Indonesia,
-                dengan berbagai koleksi tanaman berbunga yang terkenal dan unik dari seluruh dunia.</p>
-              <p class="card-text">Last updated 30 mins ago</p>
-              <a href="./tampilanDestinasi.html" class="btn btn-warning">Lihat Selengkapnya</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    </div>
-  </section>
 
   <!-- ============================== SECTION 3 ============================== -->
   <!-- bg-light -->
-  <section id="sec3" class="container mb-2">
-    <div class="top">
-      <p class="lead fw-normal mb-1ss">Our process</p>
-      <h1>Get started as easy as 1, 2, 3</h1>
-      <p>Panduan singkat untuk kamu yang ingin berlibur dengan mudah dan cepat</p>
-    </div>
-    <div class="down container">
-      <div class="row justify-content-center">
-        <div class="col">
-          <div class="card" style="width: 18rem;">
-            <img src="./assets/img/searching.jpg" class="card-img" alt="...">
-            <div class="card-body">
-              <h2>Search your destination</h2>
-              <p class="card-text">Cari dan tentukan destinasi yang ingin kamu kunjungi</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card" style="width: 18rem;">
-            <img src="./assets/img/sign-in.jpg" class="card-img" alt="...">
-            <div class="card-body">
-              <h2>Sign in as traveler</h2>
-              <p class="card-text">Buat akun dan daftarkan diri anda sebagai wisatawan</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card" style="width: 18rem;">
-            <img src="./assets/img/online-booking.jpg" class="card-img" alt="...">
-            <div class="card-body">
-              <h2>Book your ticket now</h2>
-              <p class="card-text">Jangan lupa reservasi kebutuhan perjalananmu</p>
-            </div>
-          </div>
-        </div>
-      </div>
-  </section>
+
 
   <!-- ============================== SECTION 4 ============================== -->
   <!-- <section id="sec4" class="container">
